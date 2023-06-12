@@ -1,0 +1,54 @@
+/* Definição das variáveis do CSS*/
+:root {
+    --back-color: rgb(228, 179, 139);
+    --primary-color: rgb(162, 162, 233);
+}
+
+/* Resetar as configurações do computador */
+* {
+    background: var(--primary-color);
+}
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+figure{
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+p {
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+
